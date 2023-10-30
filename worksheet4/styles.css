@@ -72,6 +72,11 @@ header {
     justify-content: center;
     flex-direction: column;
 }
+figcaption {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
 
 iframe { 
     padding: 5px;
@@ -84,6 +89,9 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -123,4 +131,22 @@ li {
     border: 1px solid limegreen;
     border-radius: 10px;
     background-color: aliceblue;
+}
+
+.media-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
+}
+
+.media-container .mediacontent {
+    flex: 1;
+    padding: 10px;
+}
+
+.mediacontent {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+    font-size: 20px;
 }
